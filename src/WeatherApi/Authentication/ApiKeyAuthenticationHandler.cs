@@ -7,10 +7,6 @@ using WeatherApi.Data;
 
 namespace WeatherApi.Authentication
 {
-    class ApiKeyAuthenticationDefaults
-    {
-        public const string SchemeName = "ApiKey";
-    }
     public class ApiKeyAuthenticationOptions : AuthenticationSchemeOptions
     {
         public int ApiKeyLength { get; set; }
